@@ -183,6 +183,8 @@ Tras haber completado y enviado el formulario correctamente, el usuario recibir�
 ### **Recepción de ticket de compra:**
 Este documento confirma que la solicitud fue procesada por el sistema y desglosa el costo detallado de cada oligonucleótido solicitado. El ticket tendrá el siguiente contenido:
 
+<img width="848" height="576" alt="image" src="https://github.com/user-attachments/assets/bf18f378-d7ab-43d4-a54c-cdd1a7df7e56" />
+
 * **ID de Operación:** Código único asignado al pedido para dar seguimiento al trámite
 * **Costo de Secuencia:** Muestra el nombre de la secuencia, la secuencia neta, el número total de bases, el costo por base y el precio subtotal
 * **Costo de Purificación:** Especifica el tipo de purificación (ej. Desalado), la escala (ej. 25 nmol) y su costo correspondiente
