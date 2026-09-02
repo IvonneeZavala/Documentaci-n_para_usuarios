@@ -135,18 +135,86 @@ Este documento confirma que la solicitud fue procesada por el sistema y desglosa
 * **Total:** El importe final a pagar por cada uno de los apartados cotizados.
 
 ### **Recepción de la Cotización**
-En este correo se adjunta la cotización oficial para poder proceder con el pago, se le indicará:
 
-* **Precio Total:** El monto final (incluyendo gastos de envío si aplican).
-* **Vigencia:** Indica la fecha límite para realizar el pago o los días hábiles en que se verá reflejado su pago, es importante realizar su pago en el plazo indicado para evitar requerir una nueva solicitud.
+<img width="505" height="403" alt="image" src="https://github.com/user-attachments/assets/0daf02f5-73ca-4d4a-9145-843f8e0b25ad" />
+
+En este correo se adjunta los detalles de su cotización para poder proceder con el pago, se le indicará:
+
+* **Fecha de registro: La fecha en que se realizó el formulario**
+* **Hora sugerida de pago: Indica la hora límite para realizar el pago, es importante realizar su pago en el plazo indicado para evitar requerir una nueva solicitud**
+* **Fecha estimada de envío: Fecha en que se le será enviado o entregado su producto**
+
+En este correo se le adjuntará el archivo excel de su cotización desglosado con el precio unitario y precio total de cada uno de los ítems, la opción de pago seleccionada y el número de cuenta y clave para realizar el pago.
 
 ### **Detección de secuencias (Sector Salud):** 
+
+Notificación de BLAST / Secuencias en Revisión 
+El análisis BLAST (Basic Local Alignment Search Tool) es una herramienta bioinformática que compara las secuencias ingresadas en el formulario contra bases de datos biológicas para verificar su alineamiento e identidad (por ejemplo, identificación de patógenos como HBV).
+
+Si su secuencia se encuentra en similitud recibirá este correo en el cual se le indica el porcentaje de alineación y el total de bases alineadas de su secuencia adjunto a esto un archivo con el blast de dicha alineación.
+
+* **¿Qué significa esta notificación?** *
+
+Si el sistema detecta que una secuencia coincide con un organismo o gen de interés en el sector salud, esto ayuda a identificar brotes o similitudes relacionadas.
+Paso a seguir: La solicitud pasará a una revisión manual por parte del área técnica para evaluar la viabilidad de la síntesis.
 
 #### **Notificación de BLAST / Secuencias en Revisión**
 El análisis BLAST (Basic Local Alignment Search Tool) es una herramienta bioinformática que compara las secuencias ingresadas en el formulario contra bases de datos biológicas para verificar su alineamiento e identidad (por ejemplo, identificación de patógenos como HBV).
 
 #### **¿Qué significa esta notificación?**
 Si el sistema detecta que una secuencia coincide con un organismo o gen de interés en el sector salud/bioseguridad, esto ayuda a identificar brotes o similitudes relacionadas.
+
+**Ejemplo:**
+
+<img width="577" height="840" alt="image" src="https://github.com/user-attachments/assets/ffe95c73-844d-4472-b4d6-1363aab36230" />
+
+Un hallazgo sobre un patógeno HBV, se observan los hallazgos más relevantes entre ambas secuencias como:
+* **Query length:** 20 pares debases 
+* **Match identity:**  95% (19 de 20 bases coinciden)
+Expect (E) value:5e-06, indica una alta significancia estadística y significa que es poco probable que esta similitud ocurra por azar
+* **Bit score:** 37.4 bits
+
+
+#### **Paso a seguir:**
+La solicitud pasará a una revisión manual por parte del área técnica para evaluar la viabilidad de la síntesis. El usuario recibirá un aviso indicando que su pedido está en validación y se le contactará a la brevedad con los resultados.
+
+---
+
+## 4. ¿Qué hacer en caso de duda o error?
+
+* **Contacto de Soporte:** ventas@t4oligo.com / biodata@itrasig.org
+
+</div>
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="577" height="840" alt="image" src="https://github.com/user-attachments/assets/ffe95c73-844d-4472-b4d6-1363aab36230" />
+
+Un hallazgo sobre un patógeno HBV, se observan los hallazgos más relevantes entre ambas secuencias como:
+* **Query length:** 20 pares debases 
+* **Match identity:**  95% (19 de 20 bases coinciden)
+Expect (E) value:5e-06, indica una alta significancia estadística y significa que es poco probable que esta similitud ocurra por azar
+* **Bit score:** 37.4 bits
+
 
 #### **Paso a seguir:**
 La solicitud pasará a una revisión manual por parte del área técnica para evaluar la viabilidad de la síntesis. El usuario recibirá un aviso indicando que su pedido está en validación y se le contactará a la brevedad con los resultados.
