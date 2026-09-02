@@ -1,72 +1,7 @@
 # Documentación para usuarios
 Guía de llenado de campos hasta el envío para una cotización exitosa
 
-
-
-
-## ¿Qué es la plataforma? ##  
-
-Es un cotizador en línea para la generación de su ticket de compra de manera inmediata con detalles sobre su cotización y así obtener su producto fácil y rápido sin contratiempos, para esto debe ingresar todos los datos requeridos de manera completa y precisa en el formato cotizador y seguir los pasos de manera correcta.
-
-## 1. Guía de Campos: ##
-**FORMATO DE SOLICITUD**
-
-Solicitante: Ivonne Zavala García (Nombre de la persona que está solicitando la cotización/producto, titular de la compra)
-Organización: ITESI (Nombre de la empresa, universidad, laboratorio o institución a la que pertenece el usuario)
-Departamento/Laboratorio: Laboratorio de diversidad e interacción microbiana (Departamento de tu organización al que perteneces).
-DATOS DE ENVÍO
-Destinatario: Ivonne Zavala García (Persona que recibirá físicamente el producto)
-Organización: ITESI (Institución o empresa donde se entregará el producto)
-Calle, número, colonia y referencias adicionales sobre el domicilio: Carretera Irapuato-Silao Kilómetro 12.5, Comunidad El Copal, C.P. 36821, Irapuato, Guanajuato. Edificio F, Laboratorio LDIM. (Dirección específica y completa de entrega)
-Ciudad y estado: Irapuato, Guanajuato (Ciudad y estado donde se encuentra la dirección de entrega)
-Código postal: 36821 (Código postal de la dirección de entrega)
-Teléfono de contacto: 4621492002 (Número telefónico con los 10 dígitos de la persona a recibir el producto)
-E-MAIL para recepción del certificado de análisis: nataliaivonnezavalagarcia@gmail.com (Correo vigente donde se enviará el Certificado de Análisis )
-DATOS DE FACTURACIÓN
-Razón social: El nombre oficial de la empresa (persona moral) o nombre completo del usuario (persona física) tal como se está registrado ante el SAT
-R.F.C.: Registro Federal de Contribuyentes con homoclave (12 dígitos para empresas, 13 para personas físicas)
-Dirección fiscal (calle, número, colonia, ciudad, estado, código postal): Domicilio fiscal registrado ante el SAT (calle, número exterior/interior, colonia, municipio o alcaldía, estado y código postal)
-Régimen fiscal: La clave y descripción de la ley o régimen bajo el cual tributa ante el SAT; Ejemplo: 601 - General de Ley Personas Morales
-Uso del CFDI: El uso o destino que le darás fiscalmente a la factura del producto que estás comprando; Ejemplo: G01 - Adquisición de mercancías,  G03 - Gastos en general o S01 - Sin efectos fiscales
-Método de pago: El medio con el que pagará el producto; Ejemplo: Transferencia electrónica de fondos, Efectivo, Cheque nominativo o por definir
-Forma de pago: Indica si el monto se liquidará de contado en una sola exhibición o en plazos diferidos; Ejemplo: PUE (Pago en una sola exhibición) o PPD (Pago en parcialidades o diferido).
-E-MAIL para recepción de factura: El correo electrónico al que la empresa enviará el ticket de la cotización
-PRODUCTO Y SUS CARACTERÍSTICAS
-Producto
-El tipo de síntesis que requiere para su trabajo, si es un cebador normal, con modificación, sonda para qPCR, gen sintético o ARN; Ejemplo: Seleccione 
-PRIMER STD: Un cebador/primer estándar 
-PRIMER C/MOD:  Cebador/primer con una modificación quimica.
-SONDA STARQ™ PLUS:  
-
-PRIMER STD, 
-SONDA STARQ™, 
-SONDA STARQ™ PLUS, 
-SONDA STARQ™ PRIME, 
-SONDA STARQ™ POLARIS,
- PRIMER C/MOD, 
-T4BRICK™, 
-T4GENE™,
-RNA
-Cantidad: El número de productos solicitados 
-Nombre de la secuencia: Etiqueta o identificador para reconocer el producto
-Secuencia 5' a 3': El orden exacto de bases nitrogenadas (letras A, T, C, G) escrito en dirección 5 prima a 3 prima. Si hace uso de códigos degenerados, debe usarse las letras de la lista de nomenclatura (como N, K, R, etc.) Ejemplo: AGTGATCGATNCGTAGCTAGCTAGT.
-Escala: La cantidad de material (rendimiento total) que se necesita que sintetice (se elige de la lista desplegable), Ejemplo: 25 nmol, 50 nmol, 100 nmol o 200 nmol.
-Purificación: Permite elegir el grado de pureza del producto mediante la lista desplegable, según la precisión requerida para el experimento 
-Ejemplo: Desalado, PAGE o HPLC High Pure
-Longitud:El conteo total de letras (número de bases) que componen la secuencia
-Modificaciones: Marcas químicas especiales, fluoróforos o moléculas adicionales que se deseen agregar al inicio (extremo 5') o al final (extremo 3') de la cadena; Ejemplo: 6-FAM, Biotin, Cy5 (o se deja en blanco si es un primer estándar sin modificar).
-
-
-
-
-
-
-
-
-
 <div align="justify">
-
-# Documentación para usuarios
 
 ## Inicio y Glosario Rápido
 
@@ -110,7 +45,14 @@ Es un cotizador en línea para la generación de su ticket de compra de manera i
   * PRIMER STD: Un cebador/primer estándar 
   * PRIMER C/MOD: Cebador/primer con una modificación quimica.
   * SONDA STARQ™ PLUS: 
-  * PRIMER STD, SONDA STARQ™, SONDA STARQ™ PLUS, SONDA STARQ™ PRIME, SONDA STARQ™ POLARIS, PRIMER C/MOD, T4BRICK™, T4GENE™,RNA
+  * PRIMER STD:
+  * SONDA STARQ™:
+  * SONDA STARQ™ PLUS:
+  * SONDA STARQ™ PRIME:
+  * SONDA STARQ™ POLARIS:
+  * PRIMER C/MOD, T4BRICK™: T4GENE™:
+  * RNA:
+    
 * **Cantidad:** El número de productos solicitados 
 * **Nombre de la secuencia:** Etiqueta o identificador para reconocer el producto
 * **Secuencia 5' a 3':** El orden exacto de bases nitrogenadas (letras A, T, C, G) escrito en dirección 5 prima a 3 prima. Si hace uso de códigos degenerados, debe usarse las letras de la lista de nomenclatura (como N, K, R, etc.) Ejemplo: AGTGATCGATNCGTAGCTAGCTAGT.
