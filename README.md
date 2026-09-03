@@ -56,7 +56,7 @@ Es un cotizador en línea para la generación de su ticket de compra de manera i
 * **Cantidad:** El número de productos solicitados 
 * **Nombre de la secuencia:** Etiqueta o identificador para reconocer el producto
 * **Secuencia 5' a 3':** El orden exacto de bases nitrogenadas (letras A, T, C, G) escrito en dirección 5 prima a 3 prima. Si hace uso de códigos degenerados, debe usarse las letras de la lista de nomenclatura (como N, K, R, etc.) Ejemplo: AGTGATCGATNCGTAGCTAGCTAGT.
-* **Escala:** La cantidad de material (rendimiento total) que se necesita que sintetice (se elige de la lista desplegable), Ejemplo: 25 nmol, 50 nmol, 100 nmol o 200 nmol.
+* **Escala:** La cantidad de material (rendimiento total) que se necesita que sintetice (se elige de la lista desplegable), Ejemplo: 25 nmol, 50 nmol, 100 nmol o 200 nmol, 1 µm
 * **Purificación:** Permite elegir el grado de pureza del producto mediante la lista desplegable, según la precisión requerida para el experimento. Ejemplo: Desalado, PAGE o HPLC High Pure
 * **Longitud:** El conteo total de letras (número de bases) que componen la secuencia
 * **Modificaciones:** Marcas químicas especiales, fluoróforos o moléculas adicionales que se deseen agregar al inicio (extremo 5') o al final (extremo 3') de la cadena; Ejemplo: 6-FAM, Biotin, Cy5 (o se deja en blanco si es un primer estándar sin modificar).
@@ -99,6 +99,14 @@ Este apartado deberá llenarse de manera clara y completa, el producto deberá e
 * **Modificaciones extremo 3':** Elegir de la lista desplegable (Si no requiere modificación dejar el espacio en blanco): 3'BHQ1, 3'BHQ2, 3'BHQ3, 3'MGB/BHQ1, 3'MGB/BHQ2, 3' BHQ1/NOVA, 3'BBQ, 3'TAMRA, 3'6-FAM, 3'Biotina, 3'Fosfato, 3'Amino C3, 3'SPACER C3, 3'SPACER C6, 3'Tiol C6, T(BHQ1)/3'BHQ1, T(BHQ2)/3'BHQ1, T(BHQ1)/3'SPACER C3, T(BHQ1)/3'SPACER C6, T(BHQ1)/3'BHQ2, T(BHQ2)/3'BHQ2, T(BHQ2)/3'SPACER C3, T(BHQ2)/3'SPACER C6
 
 Al completar todas las casillas deberá guardarse el excel y cargarlo a la página en el botón **“Cargar cotización”** y seguido del botón **“Enviar cotización”**.
+
+En caso de solicitar los productos T4BRICK™ o T4GENE™ RNA, estos requieren una cotización manual y específica por parte del equipo de Ventas.
+Para estos productos, únicamente será necesario completar los siguientes campos:
+Producto: seleccionar una opción del menú desplegable.
+Nombre de la secuencia: ingresar manualmente.
+Secuencia 5' a 3': ingresar manualmente.
+¡Importante! Para estos productos, todos los demás campos serán establecidos automáticamente por la plataforma como “No”. Esto permitirá realizar correctamente la identificación y validación de la solicitud con la base de datos interna (BLAST).
+
 
 Una vez dado el botón **“Enviar cotización”** aparecerá la siguiente pantalla con una leyenda que dirá *“Procesando análisis molecular…Esto puede tomar unos segundos debido a la complejidad de las secuencias”*, seguido de una notificación en la parte superior que dice *“docker.t4oligo.com dice datos procesados correctamente, listos para descarga xlsx”*.
 
@@ -209,62 +217,4 @@ La solicitud pasará a una revisión manual por parte del área técnica para ev
 
 
 
-
-
-
-# **Guía Paso a Paso para Cotizar**
-**LLENADO DEL FORMATO DE SOLICITUD**
-
-Al descargar la plantilla del formato cotizador, se abrirá el excel, el cual contiene diferentes apartados los cuales se deben llenar de manera completa y correcta, se observarán los apartados de **“Datos de envío”**, **“Datos de facturación”** y **seguido del apartado general para la solicitud del producto con sus especificaciones**.
-Todo deberá ser llenado de manera manual por el usuario a excepción de algunos apartados en los cuales encontrará listas desplegables, esto para evitar confusiones o retrasos en su pedido.
-
-#**Datos del solicitante**
-ingresar: 
-*Nombre
-*Organización y Departamento/Laboratorio, hacer llenado manual de estos datos de carácter obligatorio.
-
-## **Datos de envío**
-
-Los datos de envío deberan llenarse de manera manual y obligatoriamente, siguiendo el orden: 
-*Destinatario 
-*Organización
-*Calle, número, colonia y referencias adicionales sobre el domicilio
-*Ciudad y estado, Código postal 
-*Teléfono de contacto
-*E-MAIL para recepción del certificado de análisis
-*Datos de facturación
-
-Los datos de facturación deberán llenarse de manera manual en los siguientes apartados:
-
-Razón social, RFC, Dirección fiscal (Calle, número, colonia, ciudad, estado, código postal), E-MAIL para recepción de factura.
-Los demás campos de este apartado deberán elegirse de la lista desplegable:
-Régimen fiscal, uso del CEDI, forma de pago y método de pago.
-Producto y sus características
-Este apartado deberá llenarse de manera clara y completa, el producto deberá elegirse con las características que desee y  parámetros exactos de acuerdo a su uso.
-**Producto:** Elija el producto deseado de la lista desplegable: PRIMER STD, SONDA STARQ™, SONDA STARQ™ PLUS, SONDA STARQ™ PRIME, SONDA STARQ™ POLARIS, PRIMER C/MOD, T4BRICK™, T4GENE™,RNA
-**Cantidad:** Ingresar de manera manual con número la cantidad de productos solicitados
-**Nombre de la secuencia:** Ingresar de manera manual la etiqueta o identificador 
-**Secuencia 5' a 3':** Ingresar de manera manual la secuencia
-** Escala:** Elegir de la lista desplegable la escala requerida, 25 nmol, 50 nmol,100 nmol, 200 nmol, 1 µmol
-**Purificación:** Elegir de la lista desplegable: Desalado, Cartucho, HPLC, PAIGE, High Pure
-**Longitud:**  El número de bases que contiene su secuencia se llenará automáticamente en el espacio
-**Modificaciones extremo 5':** Elegir de la lista desplegable (Si no requiere modificación dejar el espacio en blanco) 5' FAM, 5'HEX,5'TET, 5'ROX, 5'CY3, 5'CY5, 5'QUASAR 570, 5'QUASAR 670, 5'QUASAR 705, 5' CAL FLUOR ORANGE 560, 5'CAL FLUOR RED 610, 5' CAL FLUOR GOLD 540, 5'TEXAS RED, 5'TAMRA, 5'MIKE, 5'Biotina,5'Fosfato, 5'Tiol C6, 5' Amino C6, 5'SPACER C3, 5'Spacer C6
-**Modificaciones  extremo  3':** Elegir de la lista desplegable (Si no requiere modificación dejar el espacio en blanco): 3'BHQ1, 3'BHQ2, 3'BHQ3, 3'MGB/BHQ1, 3'MGB/BHQ2, 3' BHQ1/NOVA, 3'BBQ, 3'TAMRA, 3'6-FAM, 3'Biotina, 3'Fosfato, 3'Amino C3, 3'SPACER C3, 3'SPACER C6, 3'Tiol C6, T(BHQ1)/3'BHQ1, T(BHQ2)/3'BHQ1, T(BHQ1)/3'SPACER C3, T(BHQ1)/3'SPACER C6, T(BHQ1)/3'BHQ2, T(BHQ2)/3'BHQ2, T(BHQ2)/3'SPACER C3, T(BHQ2)/3'SPACER C6
-** NOTA:** Los productos  T4BRICK™, T4GENE™
-Al completar todas las casillas deberá guardarse el excel y cargarlo a la página en el botón “Cargar cotización” y seguido del botón “Enviar cotización”
-Una vez dado el botón **“Enviar cotización”** aparecerá la siguiente pantalla con una leyenda que dirá “Procesando análisis molecular…Esto puede tomar unos segundos debido a la complejidad de las secuencias”, seguido de una notificación en la parte superior que dice “docker.t4oligo.com dice datos procesados correctamente, listos para descarga xlsx”
-                      
-Este mensaje indica que se ha enviado de manera correcta y puede descargar el archivo de excel con la cotización.
-
-**Mensaje de error**
-Si después de dar en enviar cotización sale una pestaña con la leyenda “Error en el servidor” su cotización no ha sido procesada correctamente debido a alguna de las siguientes situaciones:
-Error en los datos enviados
-El motivo principal del error puede deberse a un mal llenado o llenado incompleto del formato cotizador, se deberá leer la guía de llenado del formato cotizador para hacer el llenado correcto del formato, el usuario deberá volver a llenar el excel y enviar para su cotización, si el mensaje vuelve a repetir contacte al equipo de soporte:  ventas@t4oligo.com  biodata@itrasig.org 
-Uso del formato cotizador deshabilitado fijo de la página
-El formato cotizador de la página ha quedado deshabilitado debido a los ajustes de la página y la actualización del nuevo formato de Excel, al hacer uso de este formato no será posible el procesamiento ya que estos dos formatos difieren en la estructura y no será posible su cotización. Evite hacer uso del formato que aparece en la página.
-Una vez llenado de manera correcta el formato cotizador, este llegará al correo de ventas de la empresa y se le hará llegar con ella la cotización del producto solicitado
-# **¿Qué esperar en el correo?**
-Tras haber completado y enviado el formulario correctamente, el usuario recibirá una respuesta en su correo electrónico. Dependiendo del estado de su solicitud, puede recibir uno de los siguientes 3 tipos de notificación: 
-Recepción de ticket de compra:
-Este documento confirma que la solicitud fue procesada por el sistema y desglosa el costo detallado de cada ítem por cada producto solicitado. El ticket tendrá el siguiente contenido:
 
