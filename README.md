@@ -217,4 +217,207 @@ La solicitud pasará a una revisión manual por parte del área técnica para ev
 
 
 
+<div align="justify">
 
+# Documentación para usuarios
+
+## Inicio y Glosario Rápido
+
+### ¿Qué es la plataforma?
+Es un cotizador en línea para la generación de su ticket de compra de manera inmediata con detalles sobre su cotización y así obtener su producto fácil y rápido sin contratiempos, para esto debe ingresar todos los datos requeridos de manera completa y precisa en el formato cotizador y seguir los pasos de manera correcta.
+
+### Guía de Campos:
+
+#### FORMATO DE SOLICITUD
+* **Solicitante:** Ivonne Zavala García (Nombre de la persona que está solicitando la cotización/producto, titular de la compra)
+* **Organización:** ITESI (Nombre de la empresa, universidad, laboratorio o institución a la que pertenece el usuario)
+* **Departamento/Laboratorio:** Laboratorio de diversidad e interacción microbiana (Departamento de tu organización al que perteneces).
+
+#### DATOS DE ENVÍO
+* **Destinatario:** Ivonne Zavala García (Persona que recibirá físicamente el producto)
+* **Organización:** ITESI (Institución o empresa donde se entregará el producto)
+* **Calle, número, colonia y referencias adicionales sobre el domicilio:** Carretera Irapuato-Silao Kilómetro 12.5, Comunidad El Copal, C.P. 36821, Irapuato, Guanajuato. Edificio F, Laboratorio LDIM. (Dirección específica y completa de entrega)
+* **Ciudad y estado:** Irapuato, Guanajuato (Ciudad y estado donde se encuentra la dirección de entrega)
+* **Código postal:** 36821 (Código postal de la dirección de entrega)
+* **Teléfono de contacto:** 4621492002 (Número telefónico con los 10 dígitos de la persona a recibir el producto)
+* **E-MAIL para recepción del certificado de análisis:** nataliaivonnezavalagarcia@gmail.com (Correo vigente donde se enviará el Certificado de Análisis)
+
+#### DATOS DE FACTURACIÓN
+* **Razón social:** El nombre oficial de la empresa (persona moral) o nombre completo del usuario (persona física) tal como se está registrado ante el SAT
+* **R.F.C.:** Registro Federal de Contribuyentes con homoclave (12 dígitos para empresas, 13 para personas físicas)
+* **Dirección fiscal (calle, número, colonia, ciudad, estado, código postal):** Domicilio fiscal registrado ante el SAT (calle, número exterior/interior, colonia, municipio o alcaldía, estado y código postal)
+* **Régimen fiscal:** La clave y descripción de la ley o régimen bajo el cual tributa ante el SAT; Ejemplo: 601 - General de Ley Personas Morales
+* **Uso del CFDI:** El uso o destino que le darás fiscalmente a la factura del producto que estás comprando; Ejemplo: G01 - Adquisición de mercancías, G03 - Gastos en general o S01 - Sin efectos fiscales
+* **Método de pago:** El medio con el que pagará el producto; Ejemplo: Transferencia electrónica de fondos, Efectivo, Cheque nominativo o por definir
+* **Forma de pago:** Indica si el monto se liquidará de contado en una sola exhibición o en plazos diferidos; Ejemplo: PUE (Pago en una sola exhibición) o PPD (Pago en parcialidades o diferido).
+* **E-MAIL para recepción de factura:** El correo electrónico al que la empresa enviará el ticket de la cotización
+
+#### PRODUCTO Y SUS CARACTERÍSTICAS
+* **Producto:** El tipo de síntesis que requiere para su trabajo, si es un cebador normal, con modificación, sonda para qPCR, gen sintético o ARN; Ejemplo: Seleccione 
+  * **PRIMER STD:** Un cebador/primer estándar
+  * **PRIMER C/MOD:** Cebador/primer con una modificación química.
+  * **SONDA STARQ™ PLUS:**
+  * **PRIMER STD:**
+  * **SONDA STARQ™:**
+  * **SONDA STARQ™ PLUS:**
+  * **SONDA STARQ™ PRIME:**
+  * **SONDA STARQ™ POLARIS:**
+  * **PRIMER C/MOD:**
+  * **T4BRICK™:**
+  * **T4GENE™:**
+  * **RNA:**
+* **Cantidad:** El número de productos solicitados
+* **Nombre de la secuencia:** Etiqueta o identificador para reconocer el producto
+* **Secuencia 5' a 3':** El orden exacto de bases nitrogenadas (letras A, T, C, G) escrito en dirección 5 prima a 3 prima. Si hace uso de códigos degenerados, debe usarse las letras de la lista de nomenclatura (como N, K, R, etc.) Ejemplo: AGTGATCGATNCGTAGCTAGCTAGT
+* **Escala:** La cantidad de material (rendimiento total) que se necesita que sintetice (se elige de la lista desplegable), Ejemplo: 25 nmol, 50 nmol, 100 nmol o 200 nmol, 1 µmol
+* **Purificación:** Permite elegir el grado de pureza del producto mediante la lista desplegable, según la precisión requerida para el experimento; Ejemplo: Desalado, PAGE, HPLC, High Pure.
+* **Longitud:** El conteo total de letras (número de bases) que componen la secuencia
+* **Modificaciones:** Marcas químicas especiales, fluoróforos o moléculas adicionales que se deseen agregar al inicio (extremo 5') o al final (extremo 3') de la cadena; Ejemplo: 6-FAM, Biotin, Cy5 (o se deja en blanco si es un primer estándar sin modificar).
+
+---
+
+## Guía Paso a Paso para Cotizar
+
+Una vez estando en el portal de la página, como primer paso se deberá descargar la plantilla del formato cotizador en el botón **“Descargar plantilla”** para abrir el excel y continuar con el llenado.
+
+<img width="1364" height="655" alt="image" src="https://github.com/user-attachments/assets/3960cd46-1c4b-4145-9d6b-7355545f3fde" />
+
+Seguido de esto se abrirá el excel, el cual contiene diferentes apartados los cuales se deben llenar de manera completa y correcta, se observarán los apartados de **“Datos de envío”**, **“Datos de facturación”** y seguido del apartado general para la solicitud del producto con sus especificaciones.
+Todo deberá ser llenado de manera manual por el usuario a excepción de algunos apartados en los cuales encontrará listas desplegables, esto para evitar confusiones o retrasos en su pedido.
+
+<img width="1107" height="472" alt="image" src="https://github.com/user-attachments/assets/9f1200d8-7a70-4a5b-b367-47c504f2cc17" />
+
+### LLENADO DEL FORMATO DE SOLICITUD
+
+#### Datos del solicitante
+Ingresar: **Nombre**, **Organización** y **Departamento/Laboratorio**, hacer llenado manual de estos datos de carácter obligatorio.
+
+#### Datos de envío
+Los datos de envío deberán llenarse de manera manual y obligatoriamente, siguiendo el orden: 
+**Destinatario**, **Organización**, **Calle, número, colonia y referencias adicionales sobre el domicilio**, **Ciudad y estado**, **Código postal**, **Teléfono de contacto**, **E-MAIL para recepción del certificado de análisis**
+
+#### Datos de facturación
+Los datos de facturación deberán llenarse de manera manual en los siguientes apartados:
+**Razón social**, **RFC**, **Dirección fiscal (Calle, número, colonia, ciudad, estado, código postal)**, **E-MAIL para recepción de factura**.
+
+Los demás campos de este apartado deberán elegirse de la lista desplegable:
+**Régimen fiscal**, **Uso del CFDI**, **Forma de pago** y **Método de pago**.
+
+#### Producto y sus características
+Este apartado deberá llenarse de manera clara y completa, el producto deberá elegirse con las características que desee y parámetros exactos de acuerdo a su uso.
+
+1. **Producto (Desplegable):** Elija el producto deseado de la lista desplegable: PRIMER STD, SONDA STARQ™, SONDA STARQ™ PLUS, SONDA STARQ™ PRIME, SONDA STARQ™ POLARIS, PRIMER C/MOD, T4BRICK™, T4GENE™, RNA
+2. **Cantidad (Manual):** Ingresar en formato numérico la cantidad de productos solicitados.
+3. **Nombre de la secuencia (Manual):** Ingresar el nombre de la secuencia 
+4. **Secuencia 5' a 3' (Manual):** Ingresar de manera la secuencia (siempre de 5´ a 3´)
+5. **Escala (Desplegable):** Elegir de la lista desplegable la escala requerida, 25 nmol, 50 nmol, 100 nmol, 200 nmol, 1 µmol
+6. **Purificación (Desplegable):** Elegir de la lista desplegable: Desalado, Cartucho, HPLC, PAGE, High Pure
+7. **Longitud (Automática):** El número de bases que contiene su secuencia se llenará automáticamente en el espacio
+8. **Modificaciones extremo 5' (Desplegable):** Elegir de la lista desplegable (Si no requiere modificación dejar el espacio en blanco) 5' FAM, 5'HEX, 5'TET, 5'ROX, 5'CY3, 5'CY5, 5'QUASAR 570, 5'QUASAR 670, 5'QUASAR 705, 5' CAL FLUOR ORANGE 560, 5'CAL FLUOR RED 610, 5' CAL FLUOR GOLD 540, 5'TEXAS RED, 5'TAMRA, 5'MIKE, 5'Biotina, 5'Fosfato, 5'Tiol C6, 5' Amino C6, 5'SPACER C3, 5'Spacer C6
+9. **Modificaciones extremo 3' (Desplegable):** Elegir de la lista desplegable (Si no requiere modificación dejar el espacio en blanco): 3'BHQ1, 3'BHQ2, 3'BHQ3, 3'MGB/BHQ1, 3'MGB/BHQ2, 3' BHQ1/NOVA, 3'BBQ, 3'TAMRA, 3'6-FAM, 3'Biotina, 3'Fosfato, 3'Amino C3, 3'SPACER C3, 3'SPACER C6, 3'Tiol C6, T(BHQ1)/3'BHQ1, T(BHQ2)/3'BHQ1, T(BHQ1)/3'SPACER C3, T(BHQ1)/3'SPACER C6, T(BHQ1)/3'BHQ2, T(BHQ2)/3'BHQ2, T(BHQ2)/3'SPACER C3, T(BHQ2)/3'SPACER C6. 
+
+> **NOTA:** 
+> En caso de solicitar los productos **T4BRICK™** o **T4GENE™ RNA**, estos requieren una cotización manual y específica por parte del equipo de ventas.
+> Para estos productos, únicamente será necesario completar los siguientes campos:
+> * **Producto:** seleccionar una opción del menú desplegable.
+> * **Nombre de la secuencia:** ingresar manualmente.
+> * **Secuencia 5' a 3':** ingresar manualmente.
+> 
+> **¡Importante!** Para estos productos, todos los demás campos serán establecidos automáticamente por la plataforma como “No”. Esto permitirá realizar correctamente la identificación y validación de la solicitud con la base de datos interna (BLAST).
+
+Al completar todas las casillas deberá guardarse el excel y cargarlo a la página en el botón **“Cargar cotización”** y seguido del botón **“Enviar cotización”**.
+
+---
+
+### Comportamiento de la interfaz durante el envío
+
+La interfaz cuenta con las letras **“A”**, **“T”**, **“C”** y **“G”** como elementos visuales de fondo, las cuales se desplazan mediante una animación de velocidad lenta.
+
+Al oprimir el botón **“Enviar”**, la interfaz deberá realizar las siguientes acciones:
+1. Cambiar la velocidad de la animación de las letras **“A”**, **“T”**, **“C”** y **“G”**, aumentando su velocidad para indicar que el proceso se encuentra en ejecución.
+2. Actualizar el estado del proceso. La leyenda ubicada en la parte inferior, que inicialmente muestra **“READY”**, deberá cambiar a **“Processing”** mientras se procesa la solicitud.
+
+<img width="1364" height="655" alt="image" src="https://github.com/user-attachments/assets/7e26eb9b-66d8-40dd-8a54-8a1299fb5639" />
+3. Mostrar el resultado del proceso en la parte superior derecha de la interfaz:
+   
+   * Si el archivo se carga correctamente, deberá aparecer un mensaje indicando: **“Archivo [Nombre del archivo] cargado correctamente”**.
+     
+<img width="1364" height="655" alt="image" src="https://github.com/user-attachments/assets/d076bcba-7455-4060-beea-a0cc64b589e5" />
+   * Si ocurre un error durante la carga o el procesamiento, deberá mostrarse una pestaña amarilla con una descripción del error y, cuando corresponda, el nombre del error.
+
+Una vez finalizado el proceso, la interfaz deberá regresar a su estado inicial y la animación deberá volver a su velocidad lenta. 
+
+---
+
+### Mensaje de error
+
+Si después de dar en enviar cotización sale una pestaña con una leyenda amarilla con una descripción del error y, cuando corresponda, el nombre del error significa que su cotización no ha sido procesada correctamente debido a alguna de las siguientes situaciones:
+
+> **QUEDAN PENDIENTES ERRORES POR PARTE DE SAÚL**
+
+#### Error en los datos enviados
+El motivo principal del error puede deberse a un mal llenado o llenado incompleto del formato cotizador, se deberá leer la guía de llenado del formato cotizador para hacer el llenado correcto del formato, el usuario deberá volver a llenar el excel y enviar para su cotización, si el mensaje vuelve a repetir contacte al equipo de soporte: **ventas@t4oligo.com** / **biodata@itrasig.org**
+
+---
+
+## 3. ¿Qué esperar en el correo?
+
+Tras haber completado y enviado el formulario correctamente, el usuario recibirá una respuesta en su correo electrónico. Dependiendo del estado de su solicitud, puede recibir uno de los siguientes 3 tipos de notificación: 
+
+### 1. Recepción de ticket de compra:
+Este documento confirma que la solicitud fue procesada por el sistema y desglosa el costo detallado de cada ítem por cada producto solicitado. El ticket tendrá el siguiente contenido:
+
+<img width="848" height="576" alt="image" src="https://github.com/user-attachments/assets/bf18f378-d7ab-43d4-a54c-cdd1a7df7e56" />
+
+* **ID de Operación:** Código único asignado al pedido para dar seguimiento al trámite
+* **Costo de Secuencia:** Muestra el nombre de la secuencia, la secuencia neta, el número total de bases, el costo por base y el precio subtotal
+* **Costo de Purificación:** Especifica el tipo de purificación (ej. Desalado), la escala (ej. 25 nmol) y su costo correspondiente
+* **Modificadores (Internos, 5', 3' y Adicionales):** Detalla si se agregaron modificaciones químicas en los extremos o secuencias internas y su costo
+* **Bases Degeneradas:** Indica la presencia de bases degeneradas, las observaciones técnicas y si aplica un cargo extra
+* **Total:** El importe final a pagar por cada uno de los apartados cotizados.
+
+### 2. Recepción de la Cotización
+
+<img width="505" height="403" alt="image" src="https://github.com/user-attachments/assets/0daf02f5-73ca-4d4a-9145-843f8e0b25ad" />
+
+En este correo se adjunta los detalles de su cotización para poder proceder con el pago, se le indicará:
+* **Fecha de registro:** La fecha en que se realizó el formulario
+* **Hora sugerida de pago:** Indica la hora límite para realizar el pago, es importante realizar su pago en el plazo indicado para evitar requerir una nueva solicitud
+* **Fecha estimada de envío:** Fecha en que se le será enviado o entregado su producto
+
+En este correo se le adjuntará el archivo excel de su cotización desglosado con el precio unitario y precio total de cada uno de los ítems, la opción de pago seleccionada y el número de cuenta y clave para realizar el pago.
+
+### 3. Detección de secuencias (Sector Salud): 
+
+#### Notificación de BLAST / Secuencias en Revisión
+El análisis BLAST (Basic Local Alignment Search Tool) es una herramienta bioinformática que compara las secuencias ingresadas en el formulario contra bases de datos biológicas para verificar su alineamiento e identidad (por ejemplo, identificación de patógenos como HBV).
+
+Si su secuencia se encuentra en similitud recibirá este correo en el cual se le indica el porcentaje de alineación y el total de bases alineadas de su secuencia adjunto a esto un archivo con el blast de dicha alineación.
+
+**Ejemplo:**
+> La secuencia del cliente **{NOMBRE DEL CLIENTE}** (id_interno: **{NOMBRE INTERNO}**) presenta un porcentaje de alineación **%** con un total de bases alineadas **n#** y no alineadas **n#**
+
+#### ¿Qué significa esta notificación?
+* **Secuencia detectada en la base de datos:**
+  Si se recibe un correo electrónico con el asunto **“secuencia_detectadas_sector_salud”**, significa que la secuencia solicitada ha sido encontrada en la base de datos con un nivel de similitud relevante.
+  Esto indica que la solicitud requiere un tratamiento específico por parte del departamento de Síntesis.
+
+* **Paso a seguir:**
+  La solicitud pasará a una revisión manual por parte del área técnica, con el objetivo de evaluar la viabilidad de la síntesis y determinar las acciones correspondientes.
+
+**Ejemplo:**
+<img width="577" height="840" alt="image" src="https://github.com/user-attachments/assets/ffe95c73-844d-4472-b4d6-1363aab36230" />
+
+Un hallazgo sobre un patógeno HBV, se observan los hallazgos más relevantes entre ambas secuencias como:
+* **Query length:** 20 pares de bases 
+* **Match identity:** 95% (19 de 20 bases coinciden)
+* **Expect (E) value:** 5e-06, indica una alta significancia estadística y significa que es poco probable que esta similitud ocurra por azar
+* **Bit score:** 37.4 bits
+
+---
+
+## 4. ¿Qué hacer en caso de duda o error?
+
+**Contacto de Soporte:** **ventas@t4oligo.com** | **biodata@itrasig.org**
+
+</div>
