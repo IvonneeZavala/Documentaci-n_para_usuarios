@@ -144,7 +144,7 @@ Si después de dar en enviar cotización sale una pestaña con una leyenda amari
 > **QUEDAN PENDIENTES ERRORES POR PARTE DE SAÚL**
 
 #### Error en los datos enviados
-El motivo principal del error puede deberse a un mal llenado o llenado incompleto del formato cotizador, se deberá leer la guía de llenado del formato cotizador para hacer el llenado correcto del formato, el usuario deberá volver a llenar el excel y enviar para su cotización, si el mensaje vuelve a repetir contacte al equipo de soporte: **ventas@t4oligo.com** / **biodata@itrasig.org**
+El motivo principal del error puede deberse a un **mal llenado** o **llenado incompleto** del formato cotizador, se deberá leer la **guía de llenado del formato cotizador** para hacer el llenado correcto del formato, el usuario deberá volver a llenar el excel y enviar para su cotización, si el mensaje vuelve a repetir contacte al equipo de soporte: **ventas@t4oligo.com** / **biodata@itrasig.org**
 
 ---
 
