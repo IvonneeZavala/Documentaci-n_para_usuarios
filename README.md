@@ -38,13 +38,13 @@ Es un cotizador en línea para la generación de su ticket de compra de manera i
 * **Producto:** El tipo de síntesis que requiere para su trabajo, si es un cebador normal, con modificación, sonda para qPCR, gen sintético o ARN; Ejemplo: Seleccione 
   * **PRIMER STD:** Un cebador/primer estándar
   * **PRIMER C/MOD:** Cebador/primer con una modificación química.
-  * **SONDA STARQ™:**
-  * **SONDA STARQ™ PLUS:**
-  * **SONDA STARQ™ PRIME:**
-  * **SONDA STARQ™ POLARIS:**
-  * **T4BRICK™:**
-  * **T4GENE™:**
-  * **RNA:**
+  * **SONDA STARQ™:** Sonda
+  * **SONDA STARQ™ PLUS:** Sonda
+  * **SONDA STARQ™ PRIME:** Sonda con quencher interno
+  * **SONDA STARQ™ POLARIS:** Sonda con MGB
+  * **T4BRICK™:** T4BRICK™
+  * **T4GENE™:** T4GENE™
+  * **RNA:** RNA
 * **Cantidad:** El número de productos solicitados
 * **Nombre de la secuencia:** Etiqueta o identificador para reconocer el producto
 * **Secuencia 5' a 3':** El orden exacto de bases nitrogenadas (letras A, T, C, G) escrito en dirección 5 prima a 3 prima. Si hace uso de códigos degenerados, debe usarse las letras de la lista de nomenclatura (como N, K, R, etc.) Ejemplo: AGTGATCGATNCGTAGCTAGCTAGT
@@ -59,11 +59,16 @@ Es un cotizador en línea para la generación de su ticket de compra de manera i
 
 Una vez estando en el portal de la página, como primer paso se deberá descargar la plantilla del formato cotizador en el botón **“Descargar plantilla”** y se abrirá el excel, el cual contiene diferentes apartados los cuales se deben llenar de manera completa y correcta, se observarán los apartados de **“Datos de envío”**, **“Datos de facturación”** y seguido del apartado general para la solicitud del producto con sus especificaciones.
 
-<img width="1364" height="655" alt="image" src="https://github.com/user-attachments/assets/3960cd46-1c4b-4145-9d6b-7355545f3fde" />
+<p align="center">
+  <img width="1364" height="655" alt="image" src="https://github.com/user-attachments/assets/3960cd46-1c4b-4145-9d6b-7355545f3fde" />
+</p>
 
 #### **LLENADO DEL FORMATO DE SOLICITUD**
 
-<img width="1107" height="472" alt="image" src="https://github.com/user-attachments/assets/9f1200d8-7a70-4a5b-b367-47c504f2cc17" />
+<p align="center">
+  <img width="1107" height="472" alt="image" src="https://github.com/user-attachments/assets/9f1200d8-7a70-4a5b-b367-47c504f2cc17" />
+</p>
+
 Todos los apartados del formato de solicitud deberán ser llenado de manera manual por el usuario a excepción de algunos apartados en los cuales encontrará listas desplegables, esto para evitar confusiones o retrasos en su pedido.
 
 * #### **Datos del solicitante**
@@ -73,14 +78,19 @@ Ingresar: **Nombre**, **Organización** y **Departamento/Laboratorio**, hacer ll
 
 * #### **Datos de envío**
 
-<img width="777" height="195" alt="image" src="https://github.com/user-attachments/assets/354781de-5128-4ffd-9cdc-971eb0e23008" />
+<p align="center">
+  <img width="777" height="195" alt="image" src="https://github.com/user-attachments/assets/354781de-5128-4ffd-9cdc-971eb0e23008" />
+</p>
+
 
 Los datos de envío deberán llenarse de manera manual y obligatoriamente, siguiendo el orden: 
 **Destinatario**, **Organización**, **Calle, número, colonia y referencias adicionales sobre el domicilio**, **Ciudad y estado**, **Código postal**, **Teléfono de contacto**, **E-MAIL para recepción del certificado de análisis**
 
 * #### **Datos de facturación**
 
-<img width="613" height="197" alt="image" src="https://github.com/user-attachments/assets/2149fb8e-1042-4821-8ab6-78e57c65843a" />
+<p align="center">
+  <img width="613" height="197" alt="image" src="https://github.com/user-attachments/assets/2149fb8e-1042-4821-8ab6-78e57c65843a" />
+</p>
 
 Los datos de facturación deberán llenarse de manera manual en los siguientes apartados:
 **Razón social**, **RFC**, **Dirección fiscal (Calle, número, colonia, ciudad, estado, código postal)**, **E-MAIL para recepción de factura**.
@@ -131,6 +141,7 @@ Al oprimir el botón **“Enviar”**, la interfaz deberá realizar las siguient
    * Si el archivo se carga correctamente, deberá aparecer un mensaje indicando: **“Archivo [Nombre del archivo] cargado correctamente”**.
      
 <img width="1364" height="655" alt="image" src="https://github.com/user-attachments/assets/d076bcba-7455-4060-beea-a0cc64b589e5" />
+
    * Si ocurre un error durante la carga o el procesamiento, deberá mostrarse una pestaña amarilla con una descripción del error y, cuando corresponda, el nombre del error.
 
 Una vez finalizado el proceso, la interfaz deberá regresar a su estado inicial y la animación deberá volver a su velocidad lenta. 
@@ -155,7 +166,10 @@ Tras haber completado y enviado el formulario correctamente, el usuario recibir�
 ### 1. Recepción de ticket de compra:
 Este documento confirma que la solicitud fue procesada por el sistema y desglosa el costo detallado de cada ítem por cada producto solicitado. El ticket tendrá el siguiente contenido:
 
-<img width="848" height="576" alt="image" src="https://github.com/user-attachments/assets/bf18f378-d7ab-43d4-a54c-cdd1a7df7e56" />
+
+<p align="center">
+  <img width="848" height="576" alt="image" src="https://github.com/user-attachments/assets/bf18f378-d7ab-43d4-a54c-cdd1a7df7e56" />
+</p>
 
 * **ID de Operación:** Código único asignado al pedido para dar seguimiento al trámite
 * **Costo de Secuencia:** Muestra el nombre de la secuencia, la secuencia neta, el número total de bases, el costo por base y el precio subtotal
@@ -166,7 +180,9 @@ Este documento confirma que la solicitud fue procesada por el sistema y desglosa
 
 ### 2. Recepción de la Cotización
 
-<img width="505" height="403" alt="image" src="https://github.com/user-attachments/assets/0daf02f5-73ca-4d4a-9145-843f8e0b25ad" />
+<p align="center">
+  <img width="505" height="403" alt="image" src="https://github.com/user-attachments/assets/0daf02f5-73ca-4d4a-9145-843f8e0b25ad" />
+</p>
 
 En este correo se adjunta los detalles de su cotización para poder proceder con el pago, se le indicará:
 * **Fecha de registro:** La fecha en que se realizó el formulario
@@ -182,7 +198,10 @@ El análisis BLAST (Basic Local Alignment Search Tool) es una herramienta bioinf
 Si su secuencia se encuentra en similitud recibirá este correo con la siguiente información: La secuencia del cliente {Nombre del cliente} (id_interno: {Nombre interno}) presenta un porcentaje de alineación % con un total de bases alineadas n# y no alineadas n#, en el cual se le indica el porcentaje de alineación y el total de bases alineadas de su secuencia adjunto a esto un archivo con el blast de dicha alineación.
 
 **Ejemplo:**
-<img width="577" height="840" alt="image" src="https://github.com/user-attachments/assets/ffe95c73-844d-4472-b4d6-1363aab36230" />
+
+<p align="center">
+  <img width="577" height="840" alt="image" src="https://github.com/user-attachments/assets/ffe95c73-844d-4472-b4d6-1363aab36230" />
+</p>
 
 Un hallazgo sobre un patógeno HBV, se observan los hallazgos más relevantes entre ambas secuencias como:
 * **Query length:** 20 pares de bases 
@@ -196,9 +215,7 @@ Un hallazgo sobre un patógeno HBV, se observan los hallazgos más relevantes en
   Esto indica que la solicitud requiere un tratamiento específico por parte del departamento de Síntesis.
 
 * **Paso a seguir:**
-  La solicitud pasará a una revisión manual por parte del área técnica, con el objetivo de evaluar la viabilidad de la síntesis y determinar las acciones correspondientes posteriormente se pondran en contacto con el cliente.
-
-
+  La solicitud pasará a una revisión manual por parte del área técnica, con el objetivo de evaluar la viabilidad de la síntesis y determinar las acciones correspondientes posteriormente se pondrán en contacto con el cliente.
 
 ---
 
