@@ -49,7 +49,7 @@ Es un cotizador en línea para la generación de su ticket de compra de manera i
 * **Nombre de la secuencia:** Etiqueta o identificador para reconocer el producto
 * **Secuencia 5' a 3':** El orden exacto de bases nitrogenadas (letras A, T, C, G) escrito en dirección 5 prima a 3 prima. Si hace uso de códigos degenerados, debe usarse las letras de la lista de nomenclatura (como N, K, R, etc.) Ejemplo: AGTGATCGATNCGTAGCTAGCTAGT
 * **Escala:** La cantidad de material (rendimiento total) que se necesita que sintetice (se elige de la lista desplegable), Ejemplo: 25 nmol, 50 nmol, 100 nmol o 200 nmol, 1 µmol
-* **Purificación:** Permite elegir el grado de pureza del producto mediante la lista desplegable, según la precisión requerida para el experimento; Ejemplo: Desalado, PAGE, HPLC, High Pure.
+* **Purificación:** Permite elegir el grado de pureza del producto mediante la lista desplegable, según la precisión requerida para el experimento; Ejemplo: Desalado, PAGE, HPLC, High Pure
 * **Longitud:** El conteo total de letras (número de bases) que componen la secuencia
 * **Modificaciones:** Marcas químicas especiales, fluoróforos o moléculas adicionales que se deseen agregar al inicio (extremo 5') o al final (extremo 3') de la cadena; Ejemplo: 6-FAM, Biotin, Cy5 (o se deja en blanco si es un primer estándar sin modificar).
 
@@ -61,7 +61,7 @@ Una vez estando en el portal de la página, como primer paso se deberá descarga
 
 <img width="1364" height="655" alt="image" src="https://github.com/user-attachments/assets/3960cd46-1c4b-4145-9d6b-7355545f3fde" />
 
-### **LLENADO DEL FORMATO DE SOLICITUD**
+#### **LLENADO DEL FORMATO DE SOLICITUD**
 
 <img width="1107" height="472" alt="image" src="https://github.com/user-attachments/assets/9f1200d8-7a70-4a5b-b367-47c504f2cc17" />
 Todos los apartados del formato de solicitud deberán ser llenado de manera manual por el usuario a excepción de algunos apartados en los cuales encontrará listas desplegables, esto para evitar confusiones o retrasos en su pedido.
