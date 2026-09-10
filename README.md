@@ -61,24 +61,24 @@ Una vez estando en el portal de la página, como primer paso se deberá descarga
 
 <img width="1364" height="655" alt="image" src="https://github.com/user-attachments/assets/3960cd46-1c4b-4145-9d6b-7355545f3fde" />
 
-### LLENADO DEL FORMATO DE SOLICITUD
+### **LLENADO DEL FORMATO DE SOLICITUD**
 
 <img width="1107" height="472" alt="image" src="https://github.com/user-attachments/assets/9f1200d8-7a70-4a5b-b367-47c504f2cc17" />
-Todos los apartados del formato cotiador deberá ser llenado de manera manual por el usuario a excepción de algunos apartados en los cuales encontrará listas desplegables, esto para evitar confusiones o retrasos en su pedido.
+Todos los apartados del formato de solicitud deberán ser llenado de manera manual por el usuario a excepción de algunos apartados en los cuales encontrará listas desplegables, esto para evitar confusiones o retrasos en su pedido.
 
-#### Datos del solicitante
+* #### **Datos del solicitante**
+  
+<img width="1319" height="230" alt="image" src="https://github.com/user-attachments/assets/01a8fa39-6746-4248-b3dc-cfd94cb6957b" />
 Ingresar: **Nombre**, **Organización** y **Departamento/Laboratorio**, hacer llenado manual de estos datos de carácter obligatorio.
 
-<img width="1319" height="230" alt="image" src="https://github.com/user-attachments/assets/01a8fa39-6746-4248-b3dc-cfd94cb6957b" />
-
-#### Datos de envío
+* #### **Datos de envío**
 
 <img width="777" height="195" alt="image" src="https://github.com/user-attachments/assets/354781de-5128-4ffd-9cdc-971eb0e23008" />
 
 Los datos de envío deberán llenarse de manera manual y obligatoriamente, siguiendo el orden: 
 **Destinatario**, **Organización**, **Calle, número, colonia y referencias adicionales sobre el domicilio**, **Ciudad y estado**, **Código postal**, **Teléfono de contacto**, **E-MAIL para recepción del certificado de análisis**
 
-#### Datos de facturación
+* #### **Datos de facturación**
 
 <img width="613" height="197" alt="image" src="https://github.com/user-attachments/assets/2149fb8e-1042-4821-8ab6-78e57c65843a" />
 
@@ -88,7 +88,7 @@ Los datos de facturación deberán llenarse de manera manual en los siguientes a
 Los demás campos de este apartado deberán elegirse de la lista desplegable:
 **Régimen fiscal**, **Uso del CFDI**, **Forma de pago** y **Método de pago**.
 
-#### Producto y sus características
+* #### **Producto y sus características**
 
 <img width="1326" height="224" alt="image" src="https://github.com/user-attachments/assets/564d329b-d559-4151-bcb0-c84b50436764" />
 
@@ -178,20 +178,8 @@ En este correo se le adjuntará el archivo excel de su cotización desglosado co
 ### 3. Detección de secuencias (Sector Salud): 
 
 #### Notificación de BLAST / Secuencias en Revisión
-El análisis BLAST (Basic Local Alignment Search Tool) es una herramienta bioinformática que compara las secuencias ingresadas en el formulario contra bases de datos biológicas para verificar su alineamiento e identidad (por ejemplo, identificación de patógenos como HBV).
-
-Si su secuencia se encuentra en similitud recibirá este correo en el cual se le indica el porcentaje de alineación y el total de bases alineadas de su secuencia adjunto a esto un archivo con el blast de dicha alineación.
-
-**Ejemplo:**
-> La secuencia del cliente **{NOMBRE DEL CLIENTE}** (id_interno: **{NOMBRE INTERNO}**) presenta un porcentaje de alineación **%** con un total de bases alineadas **n#** y no alineadas **n#**
-
-#### ¿Qué significa esta notificación?
-* **Secuencia detectada en la base de datos:**
-  Si se recibe un correo electrónico con el asunto **“secuencia_detectadas_sector_salud”**, significa que la secuencia solicitada ha sido encontrada en la base de datos con un nivel de similitud relevante.
-  Esto indica que la solicitud requiere un tratamiento específico por parte del departamento de Síntesis.
-
-* **Paso a seguir:**
-  La solicitud pasará a una revisión manual por parte del área técnica, con el objetivo de evaluar la viabilidad de la síntesis y determinar las acciones correspondientes.
+El análisis BLAST (Basic Local Alignment Search Tool) es una herramienta bioinformática que compara las secuencias ingresadas en el formulario contra bases de datos biológicas para verificar su alineamiento e identidad.
+Si su secuencia se encuentra en similitud recibirá este correo con la siguiente información: La secuencia del cliente {Nombre del cliente} (id_interno: {Nombre interno}) presenta un porcentaje de alineación % con un total de bases alineadas n# y no alineadas n#, en el cual se le indica el porcentaje de alineación y el total de bases alineadas de su secuencia adjunto a esto un archivo con el blast de dicha alineación.
 
 **Ejemplo:**
 <img width="577" height="840" alt="image" src="https://github.com/user-attachments/assets/ffe95c73-844d-4472-b4d6-1363aab36230" />
@@ -201,6 +189,16 @@ Un hallazgo sobre un patógeno HBV, se observan los hallazgos más relevantes en
 * **Match identity:** 95% (19 de 20 bases coinciden)
 * **Expect (E) value:** 5e-06, indica una alta significancia estadística y significa que es poco probable que esta similitud ocurra por azar
 * **Bit score:** 37.4 bits
+
+#### ¿Qué significa esta notificación?
+* **Secuencia detectada en la base de datos:**
+  Si se recibe un correo electrónico con el asunto **“secuencia_detectadas_sector_salud”**, significa que la secuencia solicitada ha sido encontrada en la base de datos con un nivel de similitud relevante.
+  Esto indica que la solicitud requiere un tratamiento específico por parte del departamento de Síntesis.
+
+* **Paso a seguir:**
+  La solicitud pasará a una revisión manual por parte del área técnica, con el objetivo de evaluar la viabilidad de la síntesis y determinar las acciones correspondientes posteriormente se pondran en contacto con el cliente.
+
+
 
 ---
 
